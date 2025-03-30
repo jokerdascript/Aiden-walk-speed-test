@@ -1,0 +1,10 @@
+local player = game.Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+local humanoid = character:FindFirstChildOfClass("Humanoid")
+
+if humanoid = character:FindFirstChildOfClass("Humanoid")
+
+if humanoid then 
+        humanoid then
+        humanoid.WalkSpeed = 300.57
+    end
