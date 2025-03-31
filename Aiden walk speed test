@@ -7,4 +7,16 @@ if humanoid = character:FindFirstChildOfClass("Humanoid")
 if humanoid then 
         humanoid then
         humanoid.WalkSpeed = 300.57
-    end
+-- createbutton
+local screenGui = Instance.new("TextButton")
+button.Size = UDim2.new("0, 200, 0, 50")
+button.Position = UDim2.new(0.5, -100, 0.8, 0)
+button.Text = "Aiden walk speed"
+button.Parent = screenGui
+
+-- button function
+button.MouseButton1Click:Connect(function()
+                if humanoid then
+                    humanoid.WalkSpeed = 300
+                end
+            end)
